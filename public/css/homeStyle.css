@@ -1,0 +1,106 @@
+body {
+    content: "";
+    position: fixed;
+    background: #040404 url("/images/bgPic.jpg") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width:1250px;
+    z-index: -1;
+}
+.container{
+    max-width:1250px;
+    margin:0 auto;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100px;
+    width:1250px;
+    color: #fff;
+}
+.userPic{
+    height: 100%;
+    width: 120px;
+}
+.userDetails{
+    background-color: #00A7DB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
+.userDetails h1{
+    margin: 0;
+    font-size: 28px;
+}
+.userDetails span{
+    font-size: large;
+    margin: 0;
+    display: inline-block;
+}
+.home{
+    background-color: #00C1EA;
+}
+.about{
+    background-color: #94D401;
+}
+.project{
+    background-color: #61B100;
+}
+.services{
+    background-color: chocolate;
+}
+.contact{
+    background-color: coral;
+}
+.home,
+.about,
+.project,
+.services,
+.contact{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: larger;
+    font-family: 'Ephesis', cursive;
+}
+.home ion-icon,
+.about ion-icon,
+.project ion-icon,
+.services ion-icon,
+.contact ion-icon{
+    font-size: 100px;
+}
+article{
+    background-color: rgba(0,0,0,0.75);
+    border: medium solid white;
+    border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px whitesmoke;
+    width:1250px;
+    opacity: 0.7;
+}
+
+article h1{
+    color:greenyellow;
+    padding: 20px 20px;
+    font-size: 40px;
+    font-family: 'Caramel', cursive;
+}
+article h2{
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+a:link{
+    text-decoration: none;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="/css/contactStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<div class="container">
+    <nav>
+        <img class="userPic" src="/images/customLogo.png" alt="profile picture">
+        <div class="userDetails">
+            <h1>Manya's Portfolio</h1>   
+            <span>Software Engineering Student</span>
+        </div>
+        <a href="/"><div class="home"><ion-icon name="home"></ion-icon>Home</div></a>
+        <a href="about"><div class="about"><ion-icon name="information-circle"></ion-icon>About</div></a>
+        <a href="project"><div class="project"><ion-icon name="folder-open"></ion-icon>Projects</div></a>
+        <a href="services"><div class="services"><ion-icon name="laptop"></ion-icon>Services</div></a>
+        <a href="contact"><div class="contact"><ion-icon name="call"></ion-icon>Contact</div></a>
+    </nav><br>
+    <article> 
+       <table class="contactInfo">
+           <tr class="contactMe">    
+               <td class="callIcon"><ion-icon name="call"></ion-icon></td>
+               <td class="callData">Contact Me!</td>              
+           </tr>
+        </table>
+       <form action="mailto: m432@my.centennialcollege.ca" method="post">
+           <fieldset>
+               <legend>
+                   <img src="images/personalInfo.png" alt="Personal Information" class="legText">
+                </legend>
+                   <table class="personalInfo">
+                       <tr>
+                           <td>First Name</td>
+                           <td>Last Name</td>
+                       </tr>
+                       <tr>
+                           <td><input type="text" name="txtFName" size="30" tabindex="1"><br><br></td>
+                           <td><input type="text" name="txtLName" size="30" tabindex="3"><br><br></td>
+                       </tr>
+                        <tr>
+                           <td>Phone Number</td>
+                           <td>Email</td>
+                       </tr>
+                       <tr>
+                           <td><input type="text" name="numPhoneNumber" size="30" tabindex="5"><br><br></td>
+                           <td><input type="email" name="txtEmail" size="30" tabindex="7"><br><br></td>
+                       </tr>
+                       <tr>
+                           <td>Message</td>
+                        <tr>
+                           <td>
+                               <textarea cols="60" name="txtSpecialRequests" rows="7" tabindex="9">---Please type your message here---</textarea>
+                               <br><br><br><br>
+                            </td>
+                            <td></td>
+                        </tr>
+                       </tr>
+                       <tr>
+                           <td>
+                               <input class="btnSubmit" name="btnSubmit" tabindex="11" type="submit" value="Submit">
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                               <input class = "btnReset" name="btnReset" tabindex="13" type="reset" value="Start Again">
+                           </td>
+                       </tr>
+                   </table>
+               </legend>
+           </fieldset>
+
+       </form> 
+    </article>
+</div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
